@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Dynamic Resume Builder</h1>
+    <form id="resume-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br>
+
+        <label for="education">Education:</label>
+        <input type="text" id="education" required><br>
+
+        <label for="workExperience">Work Experience:</label>
+        <input type="text" id="workExperience" required><br>
+
+        <label for="skills">Skills:</label>
+        <input type="text" id="skills" required><br>
+
+        <button type="submit">Generate Resume</button>
+    </form>
+
+    <div id="resume-display">
+        <h2>Your Resume</h2>
+        <div id="resume-content"></div>
+    </div>
+
+    <script src="hack3.js" ></script>
+</body>
+</html>
